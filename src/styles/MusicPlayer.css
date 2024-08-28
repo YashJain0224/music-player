@@ -1,0 +1,63 @@
+.music-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282c34; /* Dark theme */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  width: 60%;
+  margin: 0 auto; /* Center the player on the page */
+}
+
+.cover-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: center; /* Center align the buttons */
+  width: 100%;
+  margin-top: 10px; /* Space between timer and controls */
+}
+
+.controls .control-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  margin: 0 15px; /* Spacing between buttons */
+  transition: color 0.3s ease;
+}
+
+.controls .control-btn:hover {
+  color: #61dafb;
+}
+
+/* Add Font Awesome for icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+.controls .fa-arrow-left,
+.controls .fa-arrow-right,
+.controls .fa-play,
+.controls .fa-pause {
+  font-size: 24px;
+}
+
+.controls .fa-play {
+  font-size: 28px;
+}
+
+.controls .fa-pause {
+  font-size: 24px;
+}

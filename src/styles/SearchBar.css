@@ -1,0 +1,14 @@
+.search-bar {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #555; /* Darker border for dark theme */
+  background-color: #1c1c1c; /* Dark theme */
+  color: white;
+  margin-top: 10px;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #61dafb;
+}
